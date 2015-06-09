@@ -13,6 +13,7 @@
 		FEFFE6DB1B2661DF00D77948 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEFFE6DA1B2661DF00D77948 /* Images.xcassets */; };
 		FEFFE6DE1B2661DF00D77948 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEFFE6DC1B2661DF00D77948 /* LaunchScreen.xib */; };
 		FEFFE6EA1B2661DF00D77948 /* Lesson2ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFFE6E91B2661DF00D77948 /* Lesson2ExampleTests.swift */; };
+		FEFFE6F41B2667C100D77948 /* DPN original photo.JPG in Resources */ = {isa = PBXBuildFile; fileRef = FEFFE6F31B2667C100D77948 /* DPN original photo.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		FEFFE6E31B2661DF00D77948 /* Lesson2ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lesson2ExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEFFE6E81B2661DF00D77948 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FEFFE6E91B2661DF00D77948 /* Lesson2ExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson2ExampleTests.swift; sourceTree = "<group>"; };
+		FEFFE6F31B2667C100D77948 /* DPN original photo.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "DPN original photo.JPG"; path = "../../../../../../Downloads/DPN original photo.JPG"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				FEFFE6D31B2661DF00D77948 /* AppDelegate.swift */,
 				FEFFE6D51B2661DF00D77948 /* ViewController.swift */,
 				FEFFE6D71B2661DF00D77948 /* Main.storyboard */,
+				FEFFE6F31B2667C100D77948 /* DPN original photo.JPG */,
 				FEFFE6DA1B2661DF00D77948 /* Images.xcassets */,
 				FEFFE6DC1B2661DF00D77948 /* LaunchScreen.xib */,
 				FEFFE6D11B2661DF00D77948 /* Supporting Files */,
@@ -194,6 +197,7 @@
 			files = (
 				FEFFE6D91B2661DF00D77948 /* Main.storyboard in Resources */,
 				FEFFE6DE1B2661DF00D77948 /* LaunchScreen.xib in Resources */,
+				FEFFE6F41B2667C100D77948 /* DPN original photo.JPG in Resources */,
 				FEFFE6DB1B2661DF00D77948 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +413,7 @@
 				FEFFE6EF1B2661DF00D77948 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FEFFE6F01B2661DF00D77948 /* Build configuration list for PBXNativeTarget "Lesson2ExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +422,7 @@
 				FEFFE6F21B2661DF00D77948 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
