@@ -75,5 +75,6 @@ for i in 1...100 {
 // BONUS TODO: The first fibonacci number is 0, the second is 1, the third is 1, the fourth is two, the fifth is 3, the sixth is 5, etc. The Xth fibonacci number is the sum of the X-1th fibonacci number and the X-2th fibonacci number. Print the 37th fibonacci number below
 for i in 1...37 {
     var fib = 0
+    
 }
 
