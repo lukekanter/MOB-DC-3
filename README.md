@@ -8,12 +8,22 @@ This repository is for those students that are taking the **MOB3** course at Gen
 - **Teacher's Assistant:** [Thomas Degry](https://twitter.com/thomasdegry)
 
 ## Contents
-- Slides can be found in the **Lessons** folder.
-- Homework assignments can be found in the **Assessments** folder
-	- Our weeks start on Wednesday
-	- Our weeks end on the following Monday
-	- HW assignements will be assigned on Mondays
-	- HW assignements will be due the following Sundays 
+- Assessments
+	- All homework assignments
+- Classwork
+	- All classwork should be saved in here
+- Homework
+	- All completed homework assignments should be saved here
+- Lessons
+	- All slides 
+- Solutions
+	- All solutions to in-class activities and sample problems
+
+## Homework
+- Our weeks start on Wednesday
+- Our weeks end on the following Monday
+- HW assignements will be assigned on Mondays
+- HW assignements will be due the following Sundays 
 
 ## Resources
 
