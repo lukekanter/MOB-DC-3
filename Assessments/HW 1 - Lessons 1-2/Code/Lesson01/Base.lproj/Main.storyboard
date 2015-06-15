@@ -92,7 +92,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DPN original photo.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="HcD-KL-EcX">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="DPN original photo.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="HcD-KL-EcX">
                                 <rect key="frame" x="180" y="113" width="240" height="128"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
@@ -103,7 +103,7 @@
                                     <rect key="frame" x="80" y="157" width="240" height="240"/>
                                 </variation>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Luke's first app" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zs4-Ii-RoM">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Luke's first app" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zs4-Ii-RoM">
                                 <rect key="frame" x="255" y="66" width="91" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.1216672736" green="0.74569917929999996" blue="0.26274059910000003" alpha="1" colorSpace="calibratedRGB"/>
@@ -112,7 +112,7 @@
                                     <rect key="frame" x="141" y="107" width="119" height="20.5"/>
                                 </variation>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0zk-jw-GGg">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0zk-jw-GGg">
                                 <rect key="frame" x="180" y="293" width="30" height="30"/>
                                 <state key="normal" title="Info">
                                     <color key="titleColor" red="0.1216672736" green="0.74569917929999996" blue="0.26274059910000003" alpha="1" colorSpace="calibratedRGB"/>
@@ -122,10 +122,10 @@
                                     <rect key="frame" x="83" y="416" width="30" height="30"/>
                                 </variation>
                                 <connections>
-                                    <segue destination="WEl-SV-IGq" kind="presentation" id="rup-hE-QTw"/>
+                                    <segue destination="WEl-SV-IGq" kind="show" id="l1M-O8-fGy"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gvt-Rj-46j">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gvt-Rj-46j">
                                 <rect key="frame" x="374" y="293" width="40" height="30"/>
                                 <state key="normal" title="Goals">
                                     <color key="titleColor" red="0.1216672736" green="0.74569917929999996" blue="0.26274059910000003" alpha="1" colorSpace="calibratedRGB"/>
@@ -135,7 +135,7 @@
                                     <rect key="frame" x="277" y="416" width="40" height="30"/>
                                 </variation>
                                 <connections>
-                                    <segue destination="q0v-ii-yYs" kind="push" id="kgW-6q-RYh"/>
+                                    <segue destination="JKm-wb-3Ac" kind="show" id="n0v-hq-nt2"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -156,23 +156,6 @@
             </objects>
             <point key="canvasLocation" x="417" y="355"/>
         </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="hIl-jp-NI7">
-            <objects>
-                <navigationController id="q0v-ii-yYs" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="BxS-D2-213"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="DHW-2W-FD2">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <connections>
-                        <segue destination="JKm-wb-3Ac" kind="relationship" relationship="rootViewController" id="ULl-k7-P7k"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Rtk-Ko-fZ9" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1134" y="-315"/>
-        </scene>
         <!--View Controller-->
         <scene sceneID="DHt-Ji-k2G">
             <objects>
@@ -182,6 +165,7 @@
                         <viewControllerLayoutGuide type="bottom" id="aB4-bb-ZNo"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="vPq-6R-u9G">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oUO-HD-Xzv">
@@ -198,10 +182,10 @@
                                     <segue destination="WEl-SV-IGq" kind="push" id="Lta-WS-xeU"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Week1HWimage.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="M3x-Xp-Oyr">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="week1hw2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="M3x-Xp-Oyr">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="107" y="354" width="187" height="212"/>
+                                    <rect key="frame" x="107" y="346" width="187" height="234"/>
                                 </variation>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="hWP-kF-1pn">
@@ -248,6 +232,7 @@
                         <viewControllerLayoutGuide type="bottom" id="8AF-Ep-Uaq"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="dX6-pu-PNY">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Aax-B8-q84">
@@ -261,16 +246,32 @@
                                     <rect key="frame" x="46" y="114" width="308" height="393"/>
                                 </variation>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S7e-Pm-wTc">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <color key="backgroundColor" red="0.1216672736" green="0.74569917929999996" blue="0.26274059910000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="93" width="49" height="30"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="vXZ-lx-hvc" kind="show" id="CMN-Ic-Hyu"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="Aax-B8-q84"/>
+                                <exclude reference="S7e-Pm-wTc"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="Aax-B8-q84"/>
+                                <include reference="S7e-Pm-wTc"/>
                             </mask>
                         </variation>
                     </view>
@@ -283,9 +284,10 @@
     </scenes>
     <resources>
         <image name="DPN original photo.JPG" width="1090" height="1094"/>
-        <image name="Week1HWimage.jpg" width="236" height="293"/>
+        <image name="week1hw2.jpg" width="1280" height="1776"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Lta-WS-xeU"/>
+        <segue reference="CMN-Ic-Hyu"/>
+        <segue reference="l1M-O8-fGy"/>
     </inferredMetricsTieBreakers>
 </document>
