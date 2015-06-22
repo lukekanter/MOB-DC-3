@@ -45,16 +45,29 @@
                                     <rect key="frame" x="16" y="303" width="257" height="53"/>
                                 </variation>
                                 <connections>
-                                    <action selector="generateFact:" destination="BYZ-38-t0r" eventType="touchUpInside" id="T8Q-Zx-Sjc"/>
+                                    <action selector="generateFact:" destination="BYZ-38-t0r" eventType="touchUpInside" id="msk-tp-FlO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8V0-e8-79Z">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" image="star-empty">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="154" y="55" width="20" height="20"/>
+                                </variation>
+                                <connections>
+                                    <action selector="favoriteFact:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gIr-Ot-gZU"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="MVm-PV-EEU"/>
                                 <exclude reference="6P9-Ns-qWf"/>
                                 <exclude reference="lDW-G1-LLm"/>
+                                <exclude reference="8V0-e8-79Z"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -62,16 +75,21 @@
                                 <include reference="MVm-PV-EEU"/>
                                 <include reference="6P9-Ns-qWf"/>
                                 <include reference="lDW-G1-LLm"/>
+                                <include reference="8V0-e8-79Z"/>
                             </mask>
                         </variation>
                     </view>
                     <connections>
-                        <outlet property="factLabel" destination="6P9-Ns-qWf" id="zcj-9i-Yes"/>
-                        <outlet property="generateButton" destination="lDW-G1-LLm" id="tMJ-c1-m2W"/>
+                        <outlet property="factButton" destination="lDW-G1-LLm" id="vb9-G6-oOz"/>
+                        <outlet property="factLabel" destination="6P9-Ns-qWf" id="z2b-ep-Sb8"/>
+                        <outlet property="starButton" destination="8V0-e8-79Z" id="mp2-Ye-jCU"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="star-empty" width="67" height="65"/>
+    </resources>
 </document>

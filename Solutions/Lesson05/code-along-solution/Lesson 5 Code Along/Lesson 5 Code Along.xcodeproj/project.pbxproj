@@ -13,8 +13,8 @@
 		2E85C10B1B3210C400A1F47F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E85C10A1B3210C400A1F47F /* Images.xcassets */; };
 		2E85C10E1B3210C400A1F47F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E85C10C1B3210C400A1F47F /* LaunchScreen.xib */; };
 		2E85C11A1B3210C500A1F47F /* Lesson_5_Code_AlongTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E85C1191B3210C500A1F47F /* Lesson_5_Code_AlongTests.swift */; };
-		2EB01FEF1B32505E0019A3A9 /* Factbook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB01FEE1B32505E0019A3A9 /* Factbook.swift */; };
-		2EB01FF11B3252E60019A3A9 /* Colorwheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB01FF01B3252E60019A3A9 /* Colorwheel.swift */; };
+		2E85C1261B32144300A1F47F /* Factbook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E85C1251B32144300A1F47F /* Factbook.swift */; };
+		2E85C1281B32152100A1F47F /* Colorwheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E85C1271B32152100A1F47F /* Colorwheel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +38,8 @@
 		2E85C1131B3210C500A1F47F /* Lesson 5 Code AlongTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lesson 5 Code AlongTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E85C1181B3210C500A1F47F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E85C1191B3210C500A1F47F /* Lesson_5_Code_AlongTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson_5_Code_AlongTests.swift; sourceTree = "<group>"; };
-		2EB01FEE1B32505E0019A3A9 /* Factbook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Factbook.swift; sourceTree = "<group>"; };
-		2EB01FF01B3252E60019A3A9 /* Colorwheel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colorwheel.swift; sourceTree = "<group>"; };
+		2E85C1251B32144300A1F47F /* Factbook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Factbook.swift; sourceTree = "<group>"; };
+		2E85C1271B32152100A1F47F /* Colorwheel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colorwheel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +83,8 @@
 			children = (
 				2E85C1031B3210C400A1F47F /* AppDelegate.swift */,
 				2E85C1051B3210C400A1F47F /* ViewController.swift */,
-				2EB01FEE1B32505E0019A3A9 /* Factbook.swift */,
-				2EB01FF01B3252E60019A3A9 /* Colorwheel.swift */,
+				2E85C1251B32144300A1F47F /* Factbook.swift */,
+				2E85C1271B32152100A1F47F /* Colorwheel.swift */,
 				2E85C1071B3210C400A1F47F /* Main.storyboard */,
 				2E85C10A1B3210C400A1F47F /* Images.xcassets */,
 				2E85C10C1B3210C400A1F47F /* LaunchScreen.xib */,
@@ -220,8 +220,8 @@
 			files = (
 				2E85C1061B3210C400A1F47F /* ViewController.swift in Sources */,
 				2E85C1041B3210C400A1F47F /* AppDelegate.swift in Sources */,
-				2EB01FEF1B32505E0019A3A9 /* Factbook.swift in Sources */,
-				2EB01FF11B3252E60019A3A9 /* Colorwheel.swift in Sources */,
+				2E85C1261B32144300A1F47F /* Factbook.swift in Sources */,
+				2E85C1281B32152100A1F47F /* Colorwheel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,7 +419,6 @@
 				2E85C11F1B3210C500A1F47F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 		2E85C1201B3210C500A1F47F /* Build configuration list for PBXNativeTarget "Lesson 5 Code AlongTests" */ = {
 			isa = XCConfigurationList;
@@ -428,7 +427,6 @@
 				2E85C1221B3210C500A1F47F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
