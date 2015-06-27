@@ -47,6 +47,12 @@ class ViewController: UIViewController
 
     }
     
+    @IBAction func clearFields(sender: AnyObject?) {
+        nameField.text = nil
+        ageField.text = nil
+        sexField.text = nil
+        locationField.text = nil
+    }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if segue.identifier == "showProfile" {

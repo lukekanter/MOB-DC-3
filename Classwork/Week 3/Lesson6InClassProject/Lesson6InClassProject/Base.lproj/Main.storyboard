@@ -62,6 +62,9 @@
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="97" y="465" width="54" height="30"/>
                                 </variation>
+                                <connections>
+                                    <action selector="clearFields:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="cCz-Ig-aI4"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oUd-1T-ppB">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -132,7 +135,34 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="158" y="133" width="84" height="21"/>
+                                    <rect key="frame" x="117" y="133" width="124" height="27"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Age" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aEo-mC-Pwb">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="142" y="174" width="74" height="28"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sex" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qeo-Nr-vqi">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="140" y="221" width="79" height="31"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Location" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m2i-Zj-usd">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="135" y="268" width="131" height="33"/>
                                 </variation>
                             </label>
                         </subviews>
@@ -140,16 +170,25 @@
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="pST-9n-Vtp"/>
+                                <exclude reference="aEo-mC-Pwb"/>
+                                <exclude reference="Qeo-Nr-vqi"/>
+                                <exclude reference="m2i-Zj-usd"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
                                 <include reference="pST-9n-Vtp"/>
+                                <include reference="aEo-mC-Pwb"/>
+                                <include reference="Qeo-Nr-vqi"/>
+                                <include reference="m2i-Zj-usd"/>
                             </mask>
                         </variation>
                     </view>
                     <connections>
+                        <outlet property="ageField" destination="aEo-mC-Pwb" id="x5X-c4-4xM"/>
+                        <outlet property="locationField" destination="m2i-Zj-usd" id="2rs-gd-UaQ"/>
                         <outlet property="nameField" destination="pST-9n-Vtp" id="zgJ-AP-JzI"/>
+                        <outlet property="sexField" destination="Qeo-Nr-vqi" id="cdj-ja-DyS"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jbh-Mq-smH" userLabel="First Responder" sceneMemberID="firstResponder"/>
