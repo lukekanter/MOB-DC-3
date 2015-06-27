@@ -10,6 +10,11 @@ import UIKit
 
 class FirstViewController: UIViewController {
     
+    @IBOutlet weak var timerLabel: UILabel!
+    
+    var timer: NSTimer?
+    var counter: Int = 0
+    
     override func loadView() {
         super.loadView()
         magic()
@@ -23,6 +28,8 @@ class FirstViewController: UIViewController {
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
         magic()
+        
+        timer = NSTimer.scheduledTimerWithTimeInterval(1.0, target: self, selector: "updateLabel", userInfo: nil, repeats: true)
     }
     
     override func viewDidAppear(animated: Bool) {
@@ -38,12 +45,19 @@ class FirstViewController: UIViewController {
     override func viewDidDisappear(animated: Bool) {
         super.viewDidDisappear(animated)
         magic()
+        timer?.invalidate()
+        counter = 0
+        timerLabel.text = nil
     }
     
-    func magic(file: String = __FILE__, _ function: String = __FUNCTION__, _ line: Int = __LINE__)
-    {
+    func magic(file: String = __FILE__, _ function: String = __FUNCTION__) {
         let filename = file.lastPathComponent.stringByDeletingPathExtension
-        print("\(filename).\(function)[\(line)]\n")
+        print("\(filename).\(function)\n")
+    }
+    
+    func updateLabel() {
+        ++counter;
+        timerLabel.text = "\(counter)"
     }
     
 }

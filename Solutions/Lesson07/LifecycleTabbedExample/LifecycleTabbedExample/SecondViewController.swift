@@ -40,10 +40,9 @@ class SecondViewController: UIViewController {
         magic()
     }
     
-    func magic(file: String = __FILE__, _ function: String = __FUNCTION__, _ line: Int = __LINE__)
-    {
+    func magic(file: String = __FILE__, _ function: String = __FUNCTION__) {
         let filename = file.lastPathComponent.stringByDeletingPathExtension
-        print("\(filename).\(function)[\(line)]\n")
+        print("\(filename).\(function)\n")
     }
     
 }
