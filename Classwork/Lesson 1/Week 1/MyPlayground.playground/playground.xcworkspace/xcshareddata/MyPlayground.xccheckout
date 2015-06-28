@@ -5,20 +5,20 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>FB21A90A-A6ED-4C01-9538-FC359BD4AB47</string>
+	<string>D894CEC1-365D-4397-BAD0-E25FBC20D18A</string>
 	<key>IDESourceControlProjectName</key>
-	<string>Lesson2Example</string>
+	<string>MyPlayground</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>BFDAA4717EEB9965546778FF65FDEFE74CECE3C5</key>
 		<string>https://github.com/lukekanter/MOB-DC-3.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Classwork/Lesson 1/Solutions/Lesson2Example/Lesson2Example.xcodeproj</string>
+	<string>Classwork/Lesson 1/Week 1/MyPlayground.playground</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>BFDAA4717EEB9965546778FF65FDEFE74CECE3C5</key>
-		<string>../../../../../..</string>
+		<string>../../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/lukekanter/MOB-DC-3.git</string>

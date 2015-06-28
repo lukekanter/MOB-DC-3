@@ -31,3 +31,32 @@ var secondLine = myLine
 secondLine.length = 30
 myLine.length
 secondLine.length
+
+class fibonacciAdder {
+    var n1 = 0
+    var n2 = 0
+    func fibonacciNumberAtIndex(indexOfFibonacciNumber: Int) -> Int {
+        var fibList: [Int] = [0]
+        for i in 1...30 {
+            switch(n1, n2) {
+            case (0,0):
+                n2 = 1
+                fibList.append(n2)
+            case (0,1):
+                n1 = 1
+                fibList.append(n2)
+            default:
+                let result = n1 + n2
+                n1 = n2
+                n2 = result
+                fibList.append(result)
+            }
+        }
+        return fibList[indexOfFibonacciNumber]
+    }
+}
+let fibInstance = fibonacciAdder()
+println(fibInstance.fibonacciNumberAtIndex(4))
+
+
+
