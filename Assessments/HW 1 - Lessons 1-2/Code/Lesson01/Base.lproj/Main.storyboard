@@ -51,7 +51,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tOH-e4-CgD">
                                 <rect key="frame" x="197" y="370" width="207" height="57"/>
                                 <color key="backgroundColor" red="0.1216672736" green="0.74569917929999996" blue="0.26274059910000003" alpha="1" colorSpace="calibratedRGB"/>
-                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Login to Luke's App">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -287,7 +287,7 @@
         <image name="week1hw2.jpg" width="1280" height="1776"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="Lta-WS-xeU"/>
         <segue reference="CMN-Ic-Hyu"/>
-        <segue reference="l1M-O8-fGy"/>
     </inferredMetricsTieBreakers>
 </document>
