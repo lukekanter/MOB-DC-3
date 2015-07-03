@@ -24,7 +24,7 @@ class FourthViewController: UIViewController {
             // Creates a list to return an index from later
             var fibList: [Int] = [0]
             // Loops through fibonnaci numbers and adds them to our list
-            for i in 1...92 {
+            for i in 1...indexOfFibonacciNumber {
                 // Fibonacci Logic
                 switch(n1, n2) {
                 case (0,0):
