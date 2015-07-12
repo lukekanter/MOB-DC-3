@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E03808A1B4DF10500E57315 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0380891B4DF10500E57315 /* AppDelegate.swift */; };
+		2E03808C1B4DF10500E57315 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E03808B1B4DF10500E57315 /* ViewController.swift */; };
+		2E03808F1B4DF10500E57315 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E03808D1B4DF10500E57315 /* Main.storyboard */; };
+		2E0380911B4DF10500E57315 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E0380901B4DF10500E57315 /* Images.xcassets */; };
+		2E0380941B4DF10500E57315 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E0380921B4DF10500E57315 /* LaunchScreen.xib */; };
+		2E0380A01B4DF10600E57315 /* Notifications_TwoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E03809F1B4DF10600E57315 /* Notifications_TwoTests.swift */; };
+		2E0380AA1B4DF1AC00E57315 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0380A91B4DF1AC00E57315 /* SecondViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2E03809A1B4DF10500E57315 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E03807C1B4DF10500E57315 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E0380831B4DF10500E57315;
+			remoteInfo = "Notifications-Two";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2E0380841B4DF10500E57315 /* Notifications-Two.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Notifications-Two.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E0380881B4DF10500E57315 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E0380891B4DF10500E57315 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2E03808B1B4DF10500E57315 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2E03808E1B4DF10500E57315 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2E0380901B4DF10500E57315 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2E0380931B4DF10500E57315 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2E0380991B4DF10500E57315 /* Notifications-TwoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Notifications-TwoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E03809E1B4DF10500E57315 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E03809F1B4DF10600E57315 /* Notifications_TwoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications_TwoTests.swift; sourceTree = "<group>"; };
+		2E0380A91B4DF1AC00E57315 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E0380811B4DF10500E57315 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E0380961B4DF10500E57315 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E03807B1B4DF10500E57315 = {
+			isa = PBXGroup;
+			children = (
+				2E0380861B4DF10500E57315 /* Notifications-Two */,
+				2E03809C1B4DF10500E57315 /* Notifications-TwoTests */,
+				2E0380851B4DF10500E57315 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2E0380851B4DF10500E57315 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E0380841B4DF10500E57315 /* Notifications-Two.app */,
+				2E0380991B4DF10500E57315 /* Notifications-TwoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E0380861B4DF10500E57315 /* Notifications-Two */ = {
+			isa = PBXGroup;
+			children = (
+				2E0380891B4DF10500E57315 /* AppDelegate.swift */,
+				2E03808B1B4DF10500E57315 /* ViewController.swift */,
+				2E0380A91B4DF1AC00E57315 /* SecondViewController.swift */,
+				2E03808D1B4DF10500E57315 /* Main.storyboard */,
+				2E0380901B4DF10500E57315 /* Images.xcassets */,
+				2E0380921B4DF10500E57315 /* LaunchScreen.xib */,
+				2E0380871B4DF10500E57315 /* Supporting Files */,
+			);
+			path = "Notifications-Two";
+			sourceTree = "<group>";
+		};
+		2E0380871B4DF10500E57315 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E0380881B4DF10500E57315 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2E03809C1B4DF10500E57315 /* Notifications-TwoTests */ = {
+			isa = PBXGroup;
+			children = (
+				2E03809F1B4DF10600E57315 /* Notifications_TwoTests.swift */,
+				2E03809D1B4DF10500E57315 /* Supporting Files */,
+			);
+			path = "Notifications-TwoTests";
+			sourceTree = "<group>";
+		};
+		2E03809D1B4DF10500E57315 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E03809E1B4DF10500E57315 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E0380831B4DF10500E57315 /* Notifications-Two */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E0380A31B4DF10600E57315 /* Build configuration list for PBXNativeTarget "Notifications-Two" */;
+			buildPhases = (
+				2E0380801B4DF10500E57315 /* Sources */,
+				2E0380811B4DF10500E57315 /* Frameworks */,
+				2E0380821B4DF10500E57315 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Notifications-Two";
+			productName = "Notifications-Two";
+			productReference = 2E0380841B4DF10500E57315 /* Notifications-Two.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2E0380981B4DF10500E57315 /* Notifications-TwoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E0380A61B4DF10600E57315 /* Build configuration list for PBXNativeTarget "Notifications-TwoTests" */;
+			buildPhases = (
+				2E0380951B4DF10500E57315 /* Sources */,
+				2E0380961B4DF10500E57315 /* Frameworks */,
+				2E0380971B4DF10500E57315 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E03809B1B4DF10500E57315 /* PBXTargetDependency */,
+			);
+			name = "Notifications-TwoTests";
+			productName = "Notifications-TwoTests";
+			productReference = 2E0380991B4DF10500E57315 /* Notifications-TwoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E03807C1B4DF10500E57315 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Thomas Degry";
+				TargetAttributes = {
+					2E0380831B4DF10500E57315 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					2E0380981B4DF10500E57315 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 2E0380831B4DF10500E57315;
+					};
+				};
+			};
+			buildConfigurationList = 2E03807F1B4DF10500E57315 /* Build configuration list for PBXProject "Notifications-Two" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2E03807B1B4DF10500E57315;
+			productRefGroup = 2E0380851B4DF10500E57315 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E0380831B4DF10500E57315 /* Notifications-Two */,
+				2E0380981B4DF10500E57315 /* Notifications-TwoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E0380821B4DF10500E57315 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E03808F1B4DF10500E57315 /* Main.storyboard in Resources */,
+				2E0380941B4DF10500E57315 /* LaunchScreen.xib in Resources */,
+				2E0380911B4DF10500E57315 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E0380971B4DF10500E57315 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E0380801B4DF10500E57315 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E0380AA1B4DF1AC00E57315 /* SecondViewController.swift in Sources */,
+				2E03808C1B4DF10500E57315 /* ViewController.swift in Sources */,
+				2E03808A1B4DF10500E57315 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E0380951B4DF10500E57315 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E0380A01B4DF10600E57315 /* Notifications_TwoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2E03809B1B4DF10500E57315 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E0380831B4DF10500E57315 /* Notifications-Two */;
+			targetProxy = 2E03809A1B4DF10500E57315 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2E03808D1B4DF10500E57315 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E03808E1B4DF10500E57315 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2E0380921B4DF10500E57315 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E0380931B4DF10500E57315 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E0380A11B4DF10600E57315 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2E0380A21B4DF10600E57315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E0380A41B4DF10600E57315 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Notifications-Two/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2E0380A51B4DF10600E57315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Notifications-Two/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2E0380A71B4DF10600E57315 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Notifications-TwoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Notifications-Two.app/Notifications-Two";
+			};
+			name = Debug;
+		};
+		2E0380A81B4DF10600E57315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Notifications-TwoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Notifications-Two.app/Notifications-Two";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E03807F1B4DF10500E57315 /* Build configuration list for PBXProject "Notifications-Two" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E0380A11B4DF10600E57315 /* Debug */,
+				2E0380A21B4DF10600E57315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E0380A31B4DF10600E57315 /* Build configuration list for PBXNativeTarget "Notifications-Two" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E0380A41B4DF10600E57315 /* Debug */,
+				2E0380A51B4DF10600E57315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2E0380A61B4DF10600E57315 /* Build configuration list for PBXNativeTarget "Notifications-TwoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E0380A71B4DF10600E57315 /* Debug */,
+				2E0380A81B4DF10600E57315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E03807C1B4DF10500E57315 /* Project object */;
+}
