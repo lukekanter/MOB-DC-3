@@ -16,7 +16,7 @@ class ViewController: UIViewController {
         let center = NSNotificationCenter.defaultCenter()
         center.addObserver(self,
             selector: "receiver:",
-            name: "Hello, World!",
+            name: "keyword",
             object: nil)
         
     }
