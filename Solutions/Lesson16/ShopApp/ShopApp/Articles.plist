@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>number</key>
+		<string>000000</string>
+		<key>price</key>
+		<integer>115</integer>
+		<key>name</key>
+		<string>Lightweight Blazer</string>
+		<key>image</key>
+		<string>product1.jpg</string>
+		<key>description</key>
+		<string>This unlined blazer features a crisp cotton weave in a comfortable middle weight for a sophisticated casual finish
+Unlined
+Lined sleeves
+Two button closure
+Two patch pockets
+Breast pocket
+Slim fit
+What it&apos;s made of: 98% cotton /2% spandex</string>
+	</dict>
+	<dict>
+		<key>number</key>
+		<string>000001</string>
+		<key>price</key>
+		<integer>115</integer>
+		<key>name</key>
+		<string>Short Sleeve Tshirt</string>
+		<key>image</key>
+		<string>product2.jpg</string>
+		<key>description</key>
+		<string>This unlined blazer features a crisp cotton weave in a comfortable middle weight for a sophisticated casual finish
+Unlined
+Lined sleeves
+Two button closure
+Two patch pockets
+Breast pocket
+Slim fit
+What it&apos;s made of: 98% cotton /2% spandex</string>
+	</dict>
+	<dict>
+		<key>number</key>
+		<string>000002</string>
+		<key>price</key>
+		<real>15.99</real>
+		<key>name</key>
+		<string>Short Sleeve V-Neck Tshirt</string>
+		<key>image</key>
+		<string>product3.jpg</string>
+		<key>description</key>
+		<string>This unlined blazer features a crisp cotton weave in a comfortable middle weight for a sophisticated casual finish
+Unlined
+Lined sleeves
+Two button closure
+Two patch pockets
+Breast pocket
+Slim fit
+What it&apos;s made of: 98% cotton /2% spandex</string>
+	</dict>
+	<dict>
+		<key>number</key>
+		<string>000003</string>
+		<key>price</key>
+		<real>12.99</real>
+		<key>name</key>
+		<string>Sleeveless Tshirt</string>
+		<key>image</key>
+		<string>product4.jpg</string>
+		<key>description</key>
+		<string>This unlined blazer features a crisp cotton weave in a comfortable middle weight for a sophisticated casual finish
+Unlined
+Lined sleeves
+Two button closure
+Two patch pockets
+Breast pocket
+Slim fit
+What it&apos;s made of: 98% cotton /2% spandex</string>
+	</dict>
+	<dict>
+		<key>number</key>
+		<string>000004</string>
+		<key>price</key>
+		<real>12.99</real>
+		<key>name</key>
+		<string>Short Sleeve V-Neck Tshirt</string>
+		<key>image</key>
+		<string>product5.jpg</string>
+		<key>description</key>
+		<string>This unlined blazer features a crisp cotton weave in a comfortable middle weight for a sophisticated casual finish
+Unlined
+Lined sleeves
+Two button closure
+Two patch pockets
+Breast pocket
+Slim fit
+What it&apos;s made of: 98% cotton /2% spandex</string>
+	</dict>
+	<dict>
+		<key>number</key>
+		<string>000005</string>
+		<key>price</key>
+		<integer>115</integer>
+		<key>name</key>
+		<string>Stretch Blazer</string>
+		<key>image</key>
+		<string>product6.jpg</string>
+		<key>description</key>
+		<string>This unlined blazer features a crisp cotton weave in a comfortable middle weight for a sophisticated casual finish
+Unlined
+Lined sleeves
+Two button closure
+Two patch pockets
+Breast pocket
+Slim fit
+What it&apos;s made of: 98% cotton /2% spandex</string>
+	</dict>
+	<dict>
+		<key>number</key>
+		<string>000006</string>
+		<key>price</key>
+		<real>39.99</real>
+		<key>name</key>
+		<string>Stretch Blazer</string>
+		<key>image</key>
+		<string>product7.jpg</string>
+		<key>description</key>
+		<string>This unlined blazer features a crisp cotton weave in a comfortable middle weight for a sophisticated casual finish
+Unlined
+Lined sleeves
+Two button closure
+Two patch pockets
+Breast pocket
+Slim fit
+What it&apos;s made of: 98% cotton /2% spandex</string>
+	</dict>
+	<dict>
+		<key>number</key>
+		<string>000007</string>
+		<key>price</key>
+		<real>49.99</real>
+		<key>name</key>
+		<string>Structured Blazer</string>
+		<key>image</key>
+		<string>product8.jpg</string>
+		<key>description</key>
+		<string>This unlined blazer features a crisp cotton weave in a comfortable middle weight for a sophisticated casual finish
+Unlined
+Lined sleeves
+Two button closure
+Two patch pockets
+Breast pocket
+Slim fit
+What it&apos;s made of: 98% cotton /2% spandex</string>
+	</dict>
+</array>
+</plist>

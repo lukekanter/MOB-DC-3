@@ -9,6 +9,8 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    var mySingleton = Singleton.sharedInstance
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,6 +18,12 @@ class ViewController: UIViewController {
         
         let center = NSNotificationCenter.defaultCenter()
         center.addObserver(self, selector: "doChangeBackground:", name: "changeBackground", object: nil)
+    }
+    
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        println("\(mySingleton.age)")
     }
 
     func doChangeBackground(notification: NSNotification) {

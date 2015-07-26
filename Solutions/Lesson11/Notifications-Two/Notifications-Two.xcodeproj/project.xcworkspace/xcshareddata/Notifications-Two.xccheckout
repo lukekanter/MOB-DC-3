@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>5B718D83-5459-4E3E-813A-D0ED12C3F15F</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>Notifications-Two</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>BFDAA4717EEB9965546778FF65FDEFE74CECE3C5</key>
 		<string>github.com:ga-students/MOB-DC-3.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Solutions/Lesson11/Notifications-Two/Notifications-Two.xcodeproj/project.xcworkspace</string>
+	<string>Solutions/Lesson11/Notifications-Two/Notifications-Two.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>BFDAA4717EEB9965546778FF65FDEFE74CECE3C5</key>

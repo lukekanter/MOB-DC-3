@@ -14,6 +14,7 @@
 		2E0380941B4DF10500E57315 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E0380921B4DF10500E57315 /* LaunchScreen.xib */; };
 		2E0380A01B4DF10600E57315 /* Notifications_TwoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E03809F1B4DF10600E57315 /* Notifications_TwoTests.swift */; };
 		2E0380AA1B4DF1AC00E57315 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0380A91B4DF1AC00E57315 /* SecondViewController.swift */; };
+		2E4586DD1B4DFD7500933E5A /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4586DC1B4DFD7500933E5A /* Singleton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		2E03809E1B4DF10500E57315 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E03809F1B4DF10600E57315 /* Notifications_TwoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications_TwoTests.swift; sourceTree = "<group>"; };
 		2E0380A91B4DF1AC00E57315 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		2E4586DC1B4DFD7500933E5A /* Singleton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				2E0380891B4DF10500E57315 /* AppDelegate.swift */,
 				2E03808B1B4DF10500E57315 /* ViewController.swift */,
 				2E0380A91B4DF1AC00E57315 /* SecondViewController.swift */,
+				2E4586DC1B4DFD7500933E5A /* Singleton.swift */,
 				2E03808D1B4DF10500E57315 /* Main.storyboard */,
 				2E0380901B4DF10500E57315 /* Images.xcassets */,
 				2E0380921B4DF10500E57315 /* LaunchScreen.xib */,
@@ -216,6 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E0380AA1B4DF1AC00E57315 /* SecondViewController.swift in Sources */,
+				2E4586DD1B4DFD7500933E5A /* Singleton.swift in Sources */,
 				2E03808C1B4DF10500E57315 /* ViewController.swift in Sources */,
 				2E03808A1B4DF10500E57315 /* AppDelegate.swift in Sources */,
 			);
@@ -415,6 +419,7 @@
 				2E0380A51B4DF10600E57315 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2E0380A61B4DF10600E57315 /* Build configuration list for PBXNativeTarget "Notifications-TwoTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +428,7 @@
 				2E0380A81B4DF10600E57315 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
