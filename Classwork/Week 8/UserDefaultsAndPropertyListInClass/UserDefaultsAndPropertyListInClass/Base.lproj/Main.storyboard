@@ -31,8 +31,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="segueAction:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Om9-ul-3Cf"/>
-                                    <segue destination="Cw5-iq-59U" kind="show" id="HNo-K5-nt4"/>
+                                    <segue destination="Cw5-iq-59U" kind="show" identifier="tableSegue" id="HNo-K5-nt4"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -54,19 +53,27 @@
             </objects>
             <point key="canvasLocation" x="1252" y="355"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Media Table View Controller-->
         <scene sceneID="cED-NW-8AA">
             <objects>
-                <tableViewController id="Cw5-iq-59U" sceneMemberID="viewController">
+                <tableViewController id="Cw5-iq-59U" customClass="MediaTableViewController" customModule="UserDefaultsAndPropertyListInClass" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="yfe-ab-CEa">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="B8e-Lt-kI3">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cellID" textLabel="dpy-Tm-3rQ" style="IBUITableViewCellStyleDefault" id="B8e-Lt-kI3">
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="B8e-Lt-kI3" id="Zw4-0C-0eJ">
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="dpy-Tm-3rQ">
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
                                 </tableViewCellContentView>
                             </tableViewCell>
                         </prototypes>

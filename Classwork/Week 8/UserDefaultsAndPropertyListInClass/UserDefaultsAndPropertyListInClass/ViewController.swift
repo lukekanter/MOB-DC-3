@@ -14,10 +14,11 @@ class ViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var segueButton: UIButton!
     var movieList = [String]()
     
-    
+    let defaults = NSUserDefaults.standardUserDefaults()
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        inputField.delegate = self
         
     }
 
@@ -32,8 +33,10 @@ class ViewController: UIViewController, UITextFieldDelegate {
         return true
     }
 
-    @IBAction func segueAction(sender: UIButton) {
-        
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        defaults.arrayForKey("movieList")
     }
+        
+    
 }
 
