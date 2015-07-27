@@ -16,6 +16,7 @@ class SecondViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
         let path = NSBundle.mainBundle().pathForResource("Root", ofType: ".plist")
         if let path = path {
             let settingsDict = NSDictionary(contentsOfFile: path)

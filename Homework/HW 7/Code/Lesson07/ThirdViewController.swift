@@ -10,9 +10,23 @@ import UIKit
 
 class ThirdViewController: UIViewController {
 
+    
+    @IBOutlet weak var thirdVCTextView: UITextView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        let path = NSTemporaryDirectory() + "advanced.json"
+        if !NSFileManager.fileExistsAtPath(path) {
+            var err: NSError?
+            NSFileManager.createDirectoryAtPath(path)
+        }
 
-        // Do any additional setup after loading the view.
+       
+    }
+    @IBAction func writeTextToFlatFile(sender: UIBarButtonItem) {
+        
+        
+        
     }
 }

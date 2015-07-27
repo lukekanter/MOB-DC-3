@@ -149,10 +149,14 @@
                     <navigationItem key="navigationItem" id="W4c-fq-GLh">
                         <barButtonItem key="rightBarButtonItem" title="Next" id="BAS-oR-Hjw">
                             <connections>
+                                <action selector="writeTextToFlatFile:" destination="lWA-Qe-LpN" id="11S-Yt-aFU"/>
                                 <segue destination="03b-O5-o7r" kind="show" id="oNc-T8-vY0"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="thirdVCTextView" destination="zba-PB-Qsj" id="HXT-K4-6Wt"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JI4-wm-MiE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
