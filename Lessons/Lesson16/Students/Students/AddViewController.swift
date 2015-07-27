@@ -25,6 +25,13 @@ class AddViewController: UIViewController, UITextFieldDelegate {
         view.endEditing(true)
     }
     
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        // Make the first textfield active when the view appeared
+        nameField.becomeFirstResponder()
+    }
+    
     func textFieldShouldReturn(textField: UITextField) -> Bool {
         if textField == nameField {
             nameField.resignFirstResponder()

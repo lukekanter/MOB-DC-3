@@ -58,10 +58,10 @@ class StudentsTableViewController: UITableViewController, StudentDelegate {
     // Override to support editing the table view.
     override func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
         if editingStyle == .Delete {
+            students.removeAtIndex(indexPath.row)
+            
             // Delete the row from the data source
             tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: .Fade)
-            
-            students.removeAtIndex(indexPath.row)
         }
     }
     

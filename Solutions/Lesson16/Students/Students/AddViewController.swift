@@ -18,6 +18,13 @@ class AddViewController: UIViewController, UITextFieldDelegate {
     
     var delegate: StudentDelegate?
     
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        // Make the first textfield active when the view appeared
+        nameField.becomeFirstResponder()
+    }
+    
     override func viewWillDisappear(animated: Bool) {
         super.viewWillDisappear(animated)
         
