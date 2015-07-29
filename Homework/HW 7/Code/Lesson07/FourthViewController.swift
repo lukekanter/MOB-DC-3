@@ -10,9 +10,17 @@ import UIKit
 
 class FourthViewController: UIViewController {
 
+    @IBOutlet weak var fourthVCTextView: UITextView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        let path = NSTemporaryDirectory() + "path.json"
+        var err: NSError?
+        var savedStringOutput = String(contentsOfFile: path, encoding: NSUTF8StringEncoding, error: &err)
+        fourthVCTextView.text = savedStringOutput
+//        if let err = err {
+//            println(err)
+//        }
     }
 }

@@ -15,18 +15,23 @@ class SecondViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        
-        let path = NSBundle.mainBundle().pathForResource("Root", ofType: ".plist")
-        if let path = path {
-            let settingsDict = NSDictionary(contentsOfFile: path)
-            if let dict = settingsDict {
-                let settingsName = dict.objectForKey("settings_name")
-                let settingsSlider = dict.objectForKey("settings_slider")
-                settingsTextView.text = "\(settingsName) \(settingsSlider)"
-                println("works")
+        var path = NSBundle.mainBundle().bundlePath
+        var errorContents: NSError?
+        let contents = NSFileManager.defaultManager().contentsOfDirectoryAtPath(path, error: &errorContents)
+        let arrayOfContents = contents as! [NSString]
+        for contentString in arrayOfContents {
+            if contentString.containsString("Settings.bundle") {
+                let swiftContentString = contentString as String
+                path = path.stringByAppendingPathComponent(swiftContentString)
+                path = path.stringByAppendingPathComponent("Root.plist")
+                let settingsDict = NSDictionary(contentsOfFile: path)
+                if let settingsDict = settingsDict {
+                    settingsTextView.text = "\(settingsDict)"
+                }
             }
         }
+        
+        
         
         
         

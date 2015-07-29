@@ -15,8 +15,8 @@
 		2EFF3BFE1B649365005D50DB /* StudentsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFF3BFD1B649365005D50DB /* StudentsTests.swift */; };
 		2EFF3C081B649461005D50DB /* StudentsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFF3C071B649461005D50DB /* StudentsTableViewController.swift */; };
 		2EFF3C0A1B64946A005D50DB /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFF3C091B64946A005D50DB /* AddViewController.swift */; };
-		2EFF3C121B64999B005D50DB /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFF3C111B64999B005D50DB /* Student.swift */; };
 		2EFF3C141B6499B5005D50DB /* StudentStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EFF3C131B6499B5005D50DB /* StudentStore.swift */; };
+		FEF372611B66FB47009E0C82 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF372601B66FB47009E0C82 /* Student.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,8 +42,8 @@
 		2EFF3BFD1B649365005D50DB /* StudentsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentsTests.swift; sourceTree = "<group>"; };
 		2EFF3C071B649461005D50DB /* StudentsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentsTableViewController.swift; sourceTree = "<group>"; };
 		2EFF3C091B64946A005D50DB /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
-		2EFF3C111B64999B005D50DB /* Student.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 		2EFF3C131B6499B5005D50DB /* StudentStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentStore.swift; sourceTree = "<group>"; };
+		FEF372601B66FB47009E0C82 /* Student.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,9 +85,9 @@
 		2EFF3BE11B649365005D50DB /* Students */ = {
 			isa = PBXGroup;
 			children = (
+				FEF372601B66FB47009E0C82 /* Student.swift */,
 				2EFF3C071B649461005D50DB /* StudentsTableViewController.swift */,
 				2EFF3C091B64946A005D50DB /* AddViewController.swift */,
-				2EFF3C111B64999B005D50DB /* Student.swift */,
 				2EFF3C131B6499B5005D50DB /* StudentStore.swift */,
 				2EFF3BEB1B649365005D50DB /* Main.storyboard */,
 				2EFF3BE61B649365005D50DB /* Students.xcdatamodeld */,
@@ -225,10 +225,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2EFF3C081B649461005D50DB /* StudentsTableViewController.swift in Sources */,
+				FEF372611B66FB47009E0C82 /* Student.swift in Sources */,
 				2EFF3BE51B649365005D50DB /* AppDelegate.swift in Sources */,
 				2EFF3C0A1B64946A005D50DB /* AddViewController.swift in Sources */,
 				2EFF3C141B6499B5005D50DB /* StudentStore.swift in Sources */,
-				2EFF3C121B64999B005D50DB /* Student.swift in Sources */,
 				2EFF3BE81B649365005D50DB /* Students.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

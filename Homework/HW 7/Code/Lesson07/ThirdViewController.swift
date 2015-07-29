@@ -7,26 +7,33 @@
 //
 
 import UIKit
+import Foundation
+
+
 
 class ThirdViewController: UIViewController {
 
     
     @IBOutlet weak var thirdVCTextView: UITextView!
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        let path = NSTemporaryDirectory() + "advanced.json"
-        if !NSFileManager.fileExistsAtPath(path) {
-            var err: NSError?
-            NSFileManager.createDirectoryAtPath(path)
-        }
+        
 
        
     }
     @IBAction func writeTextToFlatFile(sender: UIBarButtonItem) {
+        let path = NSTemporaryDirectory() + "path.json"
+        var err: NSError?
         
+        if !NSFileManager.defaultManager().fileExistsAtPath(path) {
+            NSFileManager.defaultManager().createDirectoryAtPath(path, withIntermediateDirectories: false, attributes: nil, error: &err)
+            if NSFileManager.defaultManager().fileExistsAtPath(path) {
+                println("works")
+            }
+        }
         
+        var writtenData = thirdVCTextView.text.writeToFile(path, atomically: true, encoding: NSUTF8StringEncoding, error: &err)
         
     }
 }

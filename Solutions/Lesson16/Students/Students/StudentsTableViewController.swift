@@ -35,7 +35,6 @@ class StudentsTableViewController: UITableViewController, StudentDelegate {
     // MARK: - Student Delegate
     func addStudent(#name: String, location: String) {
         store.addStudentWithName(name, location: location)
-        
         tableView.reloadData()
     }
 

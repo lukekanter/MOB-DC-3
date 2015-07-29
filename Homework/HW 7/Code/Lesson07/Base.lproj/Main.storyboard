@@ -196,6 +196,9 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="fourthVCTextView" destination="sLH-y3-8UM" id="RcC-IA-che"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gdY-tK-zGe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
