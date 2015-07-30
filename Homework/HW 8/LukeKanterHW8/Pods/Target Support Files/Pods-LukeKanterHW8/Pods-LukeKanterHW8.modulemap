@@ -1,0 +1,6 @@
+framework module Pods_LukeKanterHW8 {
+  umbrella header "Pods-LukeKanterHW8-umbrella.h"
+
+  export *
+  module * { export * }
+}
