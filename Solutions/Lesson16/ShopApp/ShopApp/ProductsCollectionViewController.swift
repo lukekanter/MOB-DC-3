@@ -14,8 +14,9 @@ let reuseIdentifier = "productCell"
 class ProductsCollectionViewController: UICollectionViewController, UICollectionViewDelegateFlowLayout {
     
     var articles = [Article]()
-    var articleStore = ArticleStore.sharedStore
     var selectedIndexPath: NSIndexPath?
+    
+    weak var articleStore = ArticleStore.sharedStore
 
     @IBOutlet weak var cartBarButton: UIBarButtonItem!
     
@@ -39,7 +40,7 @@ class ProductsCollectionViewController: UICollectionViewController, UICollection
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
         
-        cartBarButton?.title = "Cart (\(articleStore.articlesInCart.count))"
+        cartBarButton?.title = "Cart (\(articleStore!.articlesInCart.count))"
     }
     
     override func viewDidAppear(animated: Bool) {
