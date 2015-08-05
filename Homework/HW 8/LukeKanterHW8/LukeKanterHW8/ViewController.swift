@@ -9,14 +9,19 @@
 import UIKit
 import Foundation
 import Alamofire
+import SwiftyJSON
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var textView: UITextView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         task1()
         task2()
+        task3()
+        task4()
     }
 
     func task1() {
@@ -38,11 +43,26 @@ class ViewController: UIViewController {
                 if let error = error {
                     println(error)
                 } else {
-                    println("no error")
+                    if let response = response {
+//                        println(response.statusCode)
+//                        println(response)
+                    }
                 }
                 
                 
         }
+    }
+    
+    func task3() {
+        Alamofire
+            .request(.GET, "http://api.openweathermap.org/data/2.5/weather?q=New%20York,US,")
+            .response { (request, response, data, error) -> Void in
+                if let data = data {
+                    let source = NSString(data: data, encoding: NSUTF8StringEncoding)
+//                    println(source!)
+                }
+        }
+        
     }
     
     
@@ -56,7 +76,23 @@ class ViewController: UIViewController {
 //    //TODO three: Make a successful network connection to http://api.openweathermap.org/data/2.5/weather?q=New%20York,US, an API that speaks JSON using core networking APIs. Create a model class that corresponds to the JSON response object, populate it with the contents of that JSON using NSJSONSerialization, then print out the model.
 //    
 //    //TODO four: Make a successful network connection to http://api.openweathermap.org/data/2.5/weather?q=New%20York,US, an API that speaks JSON. Populate a your above-defined model with the contents of that JSON using SwiftyJSON, then print out the model.
-//    
+
+    func task4() {
+        if let url = NSURL(string: "http://api.openweathermap.org/data/2.5/weather?q=nyc,ny") {
+            let task = NSURLSession.sharedSession().dataTaskWithURL(url, completionHandler: { (data, response, error) -> Void in
+                let json = JSON(data: data)
+                dispatch_async(dispatch_get_main_queue(), {
+                    if let weatherDescript = json["weather"][0]["description"].string {
+                        if let temp = json["main"]["temp"].float {
+                            self.textView.text = weatherDescript + ". Temperature in Fahrenheit is \(temp)"
+                        }
+                    }
+                })
+            })
+            task.resume()
+        }
+    }
+    
 //    if let url = NSURL(string: "http://api.openweathermap.org/data/2.5/weather?q=nyc,ny") {
 //        let task = NSURLSession.sharedSession().dataTaskWithURL(url, completionHandler: { (data, response, error) -> Void in
 //            let json = JSON(data: data)

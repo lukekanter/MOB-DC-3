@@ -6,6 +6,7 @@ use_frameworks!
 target 'LukeKanterHW8' do
 
 pod 'Alamofire'
+pod ’SwiftyJSON’
 
 end
 

@@ -15,12 +15,11 @@ class FourthViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let path = NSTemporaryDirectory() + "path.json"
+        let path = NSTemporaryDirectory() + "path3.txt"
         var err: NSError?
         var savedStringOutput = String(contentsOfFile: path, encoding: NSUTF8StringEncoding, error: &err)
+        println(savedStringOutput)
         fourthVCTextView.text = savedStringOutput
-//        if let err = err {
-//            println(err)
-//        }
+
     }
 }
