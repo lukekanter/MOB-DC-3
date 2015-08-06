@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>0A2F5E51-B54C-4374-820A-E662399EF6F8</string>
+	<key>IDESourceControlProjectName</key>
+	<string>HW8</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>BFDAA4717EEB9965546778FF65FDEFE74CECE3C5</key>
+		<string>https://github.com/ga-students/MOB-DC-3.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Solutions/HW8/HW8.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>BFDAA4717EEB9965546778FF65FDEFE74CECE3C5</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ga-students/MOB-DC-3.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>BFDAA4717EEB9965546778FF65FDEFE74CECE3C5</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BFDAA4717EEB9965546778FF65FDEFE74CECE3C5</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MOB-DC-3</string>
+		</dict>
+	</array>
+</dict>
+</plist>
