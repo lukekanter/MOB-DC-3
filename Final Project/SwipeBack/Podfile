@@ -1,0 +1,16 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'Koloda_Example', :exclusive => true do
+  pod 'Parse'
+  pod "Koloda", "1.0.3"
+  pod 'AlamoImage'
+  pod 'FBSDKCoreKit'
+  pod 'FBSDKLoginKit'
+  pod 'ParseFacebookUtilsV4'
+  pod 'pop'
+end
+
+target 'Koloda_Tests', :exclusive => true do
+  pod "Koloda"
+end

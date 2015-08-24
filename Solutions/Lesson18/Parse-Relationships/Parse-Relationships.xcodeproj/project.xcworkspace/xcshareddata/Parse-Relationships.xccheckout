@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>34EC2590-0862-4054-89AF-42DEA6D0158C</string>
 	<key>IDESourceControlProjectName</key>
-	<string>Parse-Relationships</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>BFDAA4717EEB9965546778FF65FDEFE74CECE3C5</key>
 		<string>github.com:lukekanter/MOB-DC-3.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Solutions/Lesson18/Parse-Relationships/Parse-Relationships.xcodeproj</string>
+	<string>Solutions/Lesson18/Parse-Relationships/Parse-Relationships.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>BFDAA4717EEB9965546778FF65FDEFE74CECE3C5</key>
